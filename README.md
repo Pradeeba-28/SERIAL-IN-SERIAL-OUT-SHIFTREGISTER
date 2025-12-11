@@ -49,7 +49,8 @@ endmodule
 
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/4b49be11-dfe8-4fa9-a58c-01b9d34cc951" />
+![WhatsApp Image 2025-12-11 at 14 43 19](https://github.com/user-attachments/assets/be2ea317-a021-4770-81bf-1e561a5b8887)
+
 
 
 
