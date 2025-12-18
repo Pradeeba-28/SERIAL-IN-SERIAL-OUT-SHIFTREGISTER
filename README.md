@@ -37,10 +37,18 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 
 Developed by: V. PRADEEBA RegisterNumber: 25009895
 ```
-module ex7(J,K,Qt,Y);
-input J,K,Qt;
-output Y;
-assign Y = J & ~Qt | ~K & Qt;
+module ex5(clk, sin, q);
+input clk;
+input sin;
+output [3:0] q;
+reg [3:0] q;
+always @(posedge clk)
+begin
+q[0] <= sin;
+q[1] <= q[0];
+q[2] <= q[1];
+q[3] <= q[2];
+end
 endmodule
 ```
 
